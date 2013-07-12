@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+   <title>The Pilgr.im Blog</title>
+   <description>Personal blog of Abhy Sharma.</description>
+   <link>http://blog.thepilgr.im/</link>
+   <atom:link href="http://blog.thepilgr.im/feed.xml" rel="self" type="application/rss+xml" />
+   <language>en-us</language>
+   
+   <item>
+   <title>First Post()</title>
+   <link>http://blog.thepilgr.im/2013/2012hello-world.html</link>
+   <guid>http://blog.thepilgr.im/2013/2012hello-world.html</guid>
+   <pubDate>Sun, 14 Jul 2013 00:00:00 MST</pubDate>
+   </item>
+   
+</channel>
+</rss>

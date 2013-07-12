@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+   <title>The Pilgr.im Blog</title>
+   <description>Personal blog of Abhy Sharma.</description>
+   <link>http://blog.thepilgr.im/</link>
+   <atom:link href="http://blog.thepilgr.im/feed.xml" rel="self" type="application/rss+xml" />
+   <language>en-us</language>
+   {% for entry in entries %}
+   <item>
+   <title>{{ entry.title }}</title>
+   <link>http://blog.thepilgr.im/{{ entry.url }}</link>
+   <guid>http://blog.thepilgr.im/{{ entry.url }}</guid>
+   <pubDate>{{ entry.rss_date }}</pubDate>
+   </item>
+   {% endfor %}
+</channel>
+</rss>

@@ -1,0 +1,29 @@
+<!-- home template -->
+{% extends "base.html" %}
+{% set title = "ThePilgr.im | Blog" %}
+
+{% block main %}
+   <h2>Blog</h2>
+   {% for entry in entries %}
+   <div class="home_post">
+      <div class="home_title">
+         <a href="blog/{{ entry.url }}" class="home_title">{{ entry.title }}</a>
+      </div>
+      <div class="home_date">
+         {{ entry.pretty_date }}
+      </div>
+      <br clear="all">
+   </div>
+   {% endfor %}
+
+   <div class="home_post">
+      <a href="/blog/archives.html" class="home_title">Show More..</a>
+   </div>
+   <br><br>
+   <h2>Info</h2><br>
+   <div class="home_post">
+      I live in India, make websites, and try to learn something new every day.<br/>
+      I like reading sci-fi, listening to industrial, watching movies, and a few other things.<br/>
+   </div>
+{% endblock %}
+

@@ -1,0 +1,151 @@
+body {
+   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+   font-size: 16px;
+   font-weight: lighter;
+   line-height: 1.5;
+}
+
+h1,h2,h4,h5,h6 {
+   display: inline;
+}
+
+a:link, a:visited {
+   color: #0084B4;
+   cursor: hand;
+   text-decoration: none;
+}
+
+a:hover {
+   color: #333;
+   text-decoration: none;
+}
+
+#wrapper {
+   width: 620px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+#header {
+   height: 60px;
+   margin-bottom: 5px;
+}
+
+.header_style {
+   font-weight: lighter;
+}
+
+blockquote {
+   font-family: courier;
+   border-left: 3px solid #ccc;
+   padding-left: 10px;
+   margin-left: 10px;
+   margin-right: 0px;
+   font-size: 14px;
+   overflow: auto;
+}
+
+pre {
+   font-family: courier;
+   padding: 10px;
+   font-size: 13px;
+}
+
+#code {
+   font-family: monospace;
+   background-color: #333333;
+   color: #ffffff;
+   padding: 10px;
+   font-size: 13px;
+}
+
+#social_buttons {
+   margin-top: 5px;
+}
+
+.profile_pic {
+   height: 60px;
+   width: 60px;
+   border: 0;
+   margin-right: 10px;
+   float: left;
+}
+
+.thumb_pic {
+   height: 26px;
+   width: 26px;
+   border: 0;
+   padding-right: 4px;
+}
+
+img.center {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.home_post {
+   margin-top: 4px;
+}
+
+.home_title {
+   float: left;
+}
+
+a.home_title:link, a.home_title:visited {
+   color: #333;
+}
+
+a.home_title:hover {
+   color: #0084B4;
+   text-decoration: none;
+}
+
+.home_date {
+   float: right;
+   color: #888;
+}
+
+.post_title {
+   float: clear;
+}
+
+.post_date {
+   color: #888;
+}
+
+.twitter-share-button {
+   margin-top: 8px;
+}
+
+#find_me {
+   float: left;
+   width: 390px;
+}
+
+#contact_me {
+   float: right;
+   width: 144px;
+}
+
+article {
+   padding-bottom: 5px;
+}
+
+footer {
+   border-top: 1px solid #ccc;
+   padding-top: 20px;
+}
+
+img.center {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.social-button-container{margin-bottom:3px; border-bottom:none;}
+.SocialCustomMenu, .SocialCustomMenu a, SocialCustomMenu a:visited
+{display:inline;padding:5px;color:white;text-decoration:none;font-size:0.95em;}
+.scmTwitter{background-color:#4099FF;border:solid 1px #c1c1c1}
+.scmFacebook{background-color:#45619d;border:solid 1px #c1c1c1}
+.scmGoogleplus{background-color:#af291d;border:solid 1px #c1c1c1}
