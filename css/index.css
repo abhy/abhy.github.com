@@ -1,5 +1,7 @@
+@import url(http://fonts.googleapis.com/css?family=Pontano+Sans);
+
 body {
-   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+   font-family: "Helvetica Neue", "Pontano Sans", Helvetica, Arial, sans-serif;
    font-size: 16px;
    font-weight: lighter;
    line-height: 1.5;
@@ -114,9 +116,6 @@ a.home_title:hover {
    color: #888;
 }
 
-.twitter-share-button {
-   margin-top: 8px;
-}
 
 #find_me {
    float: left;
@@ -142,10 +141,3 @@ img.center {
    margin-left: auto;
    margin-right: auto;
 }
-
-.social-button-container{margin-bottom:3px; border-bottom:none;}
-.SocialCustomMenu, .SocialCustomMenu a, SocialCustomMenu a:visited
-{display:inline;padding:5px;color:white;text-decoration:none;font-size:0.95em;}
-.scmTwitter{background-color:#4099FF;border:solid 1px #c1c1c1}
-.scmFacebook{background-color:#45619d;border:solid 1px #c1c1c1}
-.scmGoogleplus{background-color:#af291d;border:solid 1px #c1c1c1}
