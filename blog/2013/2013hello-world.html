@@ -8,7 +8,6 @@
    <link rel="stylesheet" href="/css/index.css" type="text/css">
    <link rel="alternate" type="application/rss+xml" title="RSS" href="http://blog.thepilgr.im/feed.xml">
    <link rel='shortcut icon' type='image/x-icon' href='/static/favicon.ico' />
-   <link href='http://fonts.googleapis.com/css?family=Titillium+Web:300' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
@@ -190,5 +189,18 @@
       </div>
    </footer>
    </div>
+   <script type="text/javascript">
+  WebFontConfig = {
+    google: { families: [ 'Titillium+Web:400,300:latin' ] }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+      '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })(); </script>
 </body>
 </html>
