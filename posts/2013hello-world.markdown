@@ -1,5 +1,5 @@
-The First Post
-07-18-2013
+Alpha & Omega
+07-21-2013
 
 What exactly do people write in their first blog post?
 
