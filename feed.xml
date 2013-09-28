@@ -7,12 +7,5 @@
    <atom:link href="http://blog.thepilgr.im/feed.xml" rel="self" type="application/rss+xml" />
    <language>en-us</language>
    
-   <item>
-   <title>Alpha & Omega</title>
-   <link>http://blog.thepilgr.im/2013/13-hello-world.html</link>
-   <guid>http://blog.thepilgr.im/2013/13-hello-world.html</guid>
-   <pubDate>Sat, 03 Aug 2013 00:00:00 IST</pubDate>
-   </item>
-   
 </channel>
 </rss>
